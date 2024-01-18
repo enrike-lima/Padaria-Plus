@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    background-color: #f4f0e5;
+    font-family: Tahoma;
+}
+/* imagem da logo */
+.logo-tipo {
+    width: 230px;
+}
+/* seção menu principal */
+.secao {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 5px 20px;
+
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #de8e37;
+}
+
+
+/* seção do banner */
+.secao h1 {
+    border-top: 1px solid #de8e37;
+    font-size: 28px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+   
+}
+.secao h2 {
+    color: #de8e37;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.banner {
+    width: 800px;
+}
+
+
+/* secao produtos em destaque */
+.secaoDestaque {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #de8e37;
+}
+
+.secaoDestaque h2, h3 {
+    color: #fff;
+    padding-top: 20px;
+}
+.secaoDestaque p{
+    color: #fff;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.secaoDestaque img {
+    width: 500px;
+    padding-bottom: 15px;
+}
+
+/*seção contato */
+
+#contato {
+    padding-top: 30px;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    color: white;
+    padding:15px 0;
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: black;
+}
+footer a{
+    color: #FF9505;
+    text-decoration: none;
+    
+}
