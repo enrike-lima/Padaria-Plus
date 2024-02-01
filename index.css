@@ -4,6 +4,10 @@ body {
     background-color: #f4f0e5;
     font-family: Tahoma;
 }
+.largura__pagina {
+    width: 100%;
+    min-width: 110px;
+}
 /* imagem da logo */
 .logo-tipo {
     width: 230px;
@@ -35,7 +39,6 @@ a:hover {
     padding-top: 30px;
     margin-top: 30px;
     margin-bottom: 0;
-   
 }
 .secao h2 {
     color: #de8e37;
