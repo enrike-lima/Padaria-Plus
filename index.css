@@ -104,11 +104,12 @@ footer a{
 
 @media (min-width: 300px) and (max-width: 709px) {
     .secao {
+        align-items: center;
         width: 320px;
     }
-    li {
-        display: inline;
-        padding: 3px;
+    .secao ul {
+        display: flex;
+        padding: 20px;
     }
     li a {
         font-size: 17px;
